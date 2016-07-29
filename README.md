@@ -12,8 +12,15 @@ Measuring is the first step before regulating. Use the tool you have to diagnost
 
 ## Email
 
-You should forget *Gmail* and its fancy web interface: it was 100 times (check the good ration) the amount of data you need to exchange email. Go back to a simple desktop mail application with POP/SMTP configuration (IMAP send unnecessessary synchronisation message) :
+You should forget *Gmail* and its fancy web interface: it was 100 times (check the good ration) the amount of data you need to exchange email. Go back to a simple desktop mail application with POP/SMTP configuration (IMAP send unnecessessary synchronisation message). Make sure to respect the following best practice:
 
+- Use text only (not formatted) content.
+- If you really want formatting, use Markdown
+- No signature (your email address reveal already your identity)
+- Remove previous content. If you want to quote, use ">"
+
+
+Here are some desktop client you can use:
 ### Mail from OSX
 
 This is my current configuration. I didn't manage to configure in text only yet: HELP WANTED!
