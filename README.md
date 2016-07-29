@@ -29,11 +29,22 @@ This is my current configuration. I didn't manage to configure in text only yet:
 
 TODO: Download and test
 
-## Use Lynx for webbrowing
+## Webrowsing
+
+### Disable images, scripts, flash...
+
+Start going in your browser preferences and disable images, scripts ...
+
+### Opera Turbo
+
+Opera offers an unique feature, the turbo mode: All pages are visited from opera's servers, compressed and then send to your computer. Privacy lovers, this is not for you
+ 
+### Lynx browser
 
 [Lynx](http://lynx.browser.org) is a text based web browser picture and javascript free that allow reducing the bandwith when browsing the web.
 
 - [ ] Tutorial needed
+
 
 ## Avoid DNS request
 
