@@ -10,6 +10,18 @@ Measuring is the first step before regulating. Use the tool you have to diagnost
 
 ![](monitor.jpg)
 
+## Email
+
+You should forget *Gmail* and its fancy web interface: it was 100 times (check the good ration) the amount of data you need to exchange email. Go back to a simple desktop mail application with POP/SMTP configuration (IMAP send unnecessessary synchronisation message) :
+
+### Mail from OSX
+
+This is my current configuration. I didn't manage to configure in text only yet: HELP WANTED!
+
+### Thunderbird
+
+TODO: Download and test
+
 ## Use Lynx for webbrowing
 
 [Lynx](http://lynx.browser.org) is a text based web browser picture and javascript free that allow reducing the bandwith when browsing the web.
@@ -23,7 +35,13 @@ In order to reduce DNS request, there is two option:
 - Using IP instead of name server => unfortunately, it doesn't work if you try to access a website using virtualhost
 - Add common domain name to `/etc/hosts`. When looking for a domain name resolution, the system first look into this file to avoid DNS request
 
-## Disable unnecessary services
+## Limit unwanted connection
+
+### Close all app
+
+Most of your application exchange data with a server. Keep only the one you need.
+
+### Disable unnecessary services
 
 - [ ] TODO: List unnecessary services
 
