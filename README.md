@@ -52,6 +52,15 @@ Most of your application exchange data with a server. Keep only the one you need
 
 - [ ] TODO: List unnecessary services
 
+## Collaboration
+
+Forget Google Docs, Etherpad and other derivative: it's also a waste of data. Use Git and work locally. Here is a helpful ressource about it: https://try.github.com
+
+Follow the best practices:
+
+- Work locally by cloning repository: `git clone git@github.com:PoissonPilote/lowdata.git --depth 1`
+- Use local issue (like issues.md)
+
 ## Reducing picture size
 
 Sending picture is generally a bad idea when you have a 9ko/min bitrate. If you really need to, you should definitely reduce the size and choose the jpeg format (if you don't need transparency). [ImageMagick](https://www.imagemagick.org) is a simple command line tool dedicated to that.
