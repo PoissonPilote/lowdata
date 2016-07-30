@@ -12,7 +12,7 @@ Measuring is the first step before regulating. Use the tool you have to diagnost
 
 ## Email
 
-You should forget *Gmail* and its fancy web interface: it was 100 times (check the good ration) the amount of data you need to exchange email. Go back to a simple desktop mail application with POP/SMTP configuration (IMAP send unnecessessary synchronisation message). Make sure to respect the following best practice:
+You should forget *Gmail* and its fancy web interface: it waste 100 times (check the good ration) the amount of data you need to exchange email. Go back to a simple desktop mail application with POP/SMTP configuration (IMAP send unnecessessary synchronisation message). Make sure to respect the following best practice:
 
 - Use text only (not formatted) content.
 - If you really want formatting, use Markdown
@@ -29,7 +29,28 @@ This is my current configuration. I didn't manage to configure in text only yet:
 
 TODO: Download and test
 
+### Command line
+
+Using `mail` command...
+
 ## Webrowsing
+
+### Lynx browser
+
+[Lynx](http://lynx.browser.org) is a text based web browser picture and javascript free that allow reducing the bandwith when browsing the web.
+
+### Installation
+
+Via [Brew](http://brew.sh)
+
+    brew install lynx
+
+### Usage
+
+Here is how to open a webpage with *lynx*:
+
+    lynx http://duckduckgo.com
+
 
 ### Disable images, scripts, flash...
 
@@ -38,13 +59,6 @@ Start going in your browser preferences and disable images, scripts ...
 ### Opera Turbo
 
 Opera offers an unique feature, the turbo mode: All pages are visited from opera's servers, compressed and then send to your computer. Privacy lovers, this is not for you
- 
-### Lynx browser
-
-[Lynx](http://lynx.browser.org) is a text based web browser picture and javascript free that allow reducing the bandwith when browsing the web.
-
-- [ ] Tutorial needed
-
 
 ## Avoid DNS request
 
