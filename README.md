@@ -23,7 +23,7 @@ You should forget *Gmail* and its fancy web interface: it waste 100 times (check
 Here are some desktop client you can use:
 ### Mail from OSX
 
-This is my current configuration. I didn't manage to configure in text only yet: HELP WANTED!
+Simple and well integrated with OSX, the default *Mail* application make the job. Make sure to disable the rich text formatting by going to *Mail > Preferences... > Compositing* and select *Plain Text* from the *Message Format* dropdown menu.
 
 ### Thunderbird
 
