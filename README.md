@@ -10,11 +10,20 @@ Measuring is the first step before regulating. Use the tool you have to diagnost
 
 ![](monitor.jpg)
 
+## Reduce background connection
+
 ## Filter packets
 
 Using `pfctl` : https://developer.apple.com/legacy/library/documentation/Darwin/Reference/ManPages/man8/pfctl.8.html
 
-HELP WANTED: http://apple.stackexchange.com/questions/248159/control-packets-with-pfcl
+I wrote a simple small [pf.conf](pf.conf) file that you can activate this way:
+
+    sudo pfctl -f pf.conf
+    sudo pfctl -e
+
+You can disable the packet filter this way:
+
+    sudo pfctl -d
 
 ## Email
 
