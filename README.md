@@ -10,6 +10,12 @@ Measuring is the first step before regulating. Use the tool you have to diagnost
 
 ![](monitor.jpg)
 
+## Filter packets
+
+Using `pfctl` : https://developer.apple.com/legacy/library/documentation/Darwin/Reference/ManPages/man8/pfctl.8.html
+
+HELP WANTED: http://apple.stackexchange.com/questions/248159/control-packets-with-pfcl
+
 ## Email
 
 You should forget *Gmail* and its fancy web interface: it waste 100 times (check the good ration) the amount of data you need to exchange email. Go back to a simple desktop mail application with POP/SMTP configuration (IMAP send unnecessessary synchronisation message). Make sure to respect the following best practice:
