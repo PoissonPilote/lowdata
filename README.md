@@ -1,5 +1,7 @@
 # lowdata
 
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/PoissonPilote?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This repository is design to gather tools and technics to reduce bandwith consumption during a sailing trip with sattelite communication (9kB/min).
 
 This guide is mainly dedicated to OSX, but is is designed to give cross-plateform advice in the future
