@@ -52,35 +52,44 @@ TODO: Download and test
 
 Using `mail` command...
 
-## Webrowsing
+## Web Browsing
 
-### Lynx browser
+### Adjust settings
 
-[Lynx](http://lynx.browser.org) is a text based web browser picture and javascript free that allow reducing the bandwith when browsing the web.
+* Go to your browser settings and disable images, scripts, flash ...
+* Opera offers a turbo mode: All pages are visited from opera's servers, compressed and then send to your computer. Privacy lovers, this is not for you
+* A similar option exists in most mobile browsers
 
-### Installation
+### Visit lite version of websites
+* http://lite.cnn.com/en
+* https://text.npr.org/
+* Some extension allow to request lite version such as "Save-Data: on" on chrome
+    
+### Use a text browser
 
-Via [Brew](http://brew.sh)
+#### Lynx browser
+
+[Lynx](http://lynx.browser.org) is a text based web browser, pictures and javascript free, that allows reducing the bandwith when browsing the web. Some websites might not be functionnal.
+
+Installation via [Brew](http://brew.sh)
 
 ```
 brew install lynx
 ```
+Installation on Ubuntu/Debian
+```
+sudo apt install lynx
+```
 
-### Usage
-
-Here is how to open a webpage with *lynx*:
+Here is how to open a webpage with lynx:
 
 ```
 lynx http://duckduckgo.com
 ```
+Press arrows to navigate, <kbd>enter</kbd> to follow a link and <kbd>q</kbd> to quit
 
-### Disable images, scripts, flash...
-
-Start going in your browser preferences and disable images, scripts ...
-
-### Opera Turbo
-
-Opera offers an unique feature, the turbo mode: All pages are visited from opera's servers, compressed and then send to your computer. Privacy lovers, this is not for you
+#### Browsh browser
+[Browsh](https://www.brow.sh/) is a browser using firefox to render pages and send you a text version. For bandwith usage, it must be installed on a remote server that you access via ssh.
 
 ## Avoid DNS request
 
