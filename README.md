@@ -18,12 +18,16 @@ Using `pfctl` : https://developer.apple.com/legacy/library/documentation/Darwin/
 
 I wrote a simple small [pf.conf](pf.conf) file that you can activate this way:
 
-    sudo pfctl -f pf.conf
-    sudo pfctl -e
+```
+sudo pfctl -f pf.conf
+sudo pfctl -e
+```
 
 You can disable the packet filter this way:
 
-    sudo pfctl -d
+```
+sudo pfctl -d
+```
 
 ## Email
 
@@ -58,14 +62,17 @@ Using `mail` command...
 
 Via [Brew](http://brew.sh)
 
-    brew install lynx
+```
+brew install lynx
+```
 
 ### Usage
 
 Here is how to open a webpage with *lynx*:
 
-    lynx http://duckduckgo.com
-
+```
+lynx http://duckduckgo.com
+```
 
 ### Disable images, scripts, flash...
 
@@ -107,14 +114,19 @@ Sending picture is generally a bad idea when you have a 9ko/min bitrate. If you 
 
 ### Installation
 
-    brew install imagemagick
+```
+brew install imagemagick
+```
 
 ### Usage
 
-    $ convert -quality 60 monitor.png  -resize 1104x monitor.jpg
-
+```
+$ convert -quality 60 monitor.png  -resize 1104x monitor.jpg
+```
 Look at the size I spared for the above image:
 
-    $ ls -l monitor.*
+```
+$ ls -l monitor.*
 -rw-r--r--@ 1 martin  staff    70K 29 jul 13:50 monitor.jpg
 -rw-r--r--@ 1 martin  staff   496K 29 jul 13:48 monitor.png
+```
